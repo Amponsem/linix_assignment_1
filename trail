@@ -1,0 +1,2220 @@
+    1  docker ps -a
+    2  docker rm -f $(docker ps -a -q)
+    3  docker ls
+    4  docker ps -a
+    5  clear
+    6  pwd
+    7  docker ls
+    8  docker ps -a
+    9  docker exec -it mariadb bash
+   10  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   11  mysql -u root -p my-secret-pw
+   12  docker rm -f $(docker ps -a -q)
+   13  docker ps -a
+   14  docker run --name mariadb -v /Users/mosqui/data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw --env MYSQL_USER=mosqui --env MYSQL_PASSWORD=mariadb-pw --env MYSQL_DATABASE=sreauto --network=host -d mariadb:latest
+   15  mysql -u mosqui -p mariadb-pw
+   16  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   17  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   18  docker ps -a
+   19  docker inspect mariadb
+   20  mysql -u mosqui -p mariadb-pw
+   21  mysql -u mosqui -p mariadb-pw
+   22  mysql -u mosqui -p mariadb-pw
+   23  mysql -u mosqui -p mariadb-pw
+   24  docker rm -f $(docker ps -a -q)
+   25  docker run --name mariadb -v /Users/mosqui/Data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw --env MYSQL_USER=mosqui --env MYSQL_PASSWORD=mariadb-pw --env MYSQL_DATABASE=sreauto -d mariadb:latest
+   26  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   27  mysql -u mosqui -p mariadb-pw
+   28  docker inspect mariadb
+   29  docker rm -f $(docker ps -a -q)
+   30  docker run --name mariadb -v /Users/mosqui/Data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw --env MYSQL_USER=mosqui --env MYSQL_PASSWORD=mariadb-pw --env MYSQL_DATABASE=sreauto -p 3306:3306 -d mariadb:latest
+   31  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   32  docker inspect mariadb
+   33  docker exec -it ea9a69507750993c8ae326b315b1bf99f1d3bcff18fc5bd956047b0947d6f53f /bin/sh; exit
+   34  docker exec -it ea9a69507750993c8ae326b315b1bf99f1d3bcff18fc5bd956047b0947d6f53f /bin/sh; exit
+   35  import mysql.connector\n\nmydb = mysql.connector.connect(\n  host="localhost",\n  user="yourusername",\n  password="yourpassword"\n)\n\nprint(mydb) 
+   36  python3
+   37  pip3 insta;l mql-connector
+   38  pip3 install mql-connector
+   39  pip3 install mysql-connector
+   40  pip3 install python3.9
+   41  pip install python39
+   42  pip3 install python39
+   43  pip3 install python3*
+   44  brew install python39
+   45  docker exec -it ea9a69507750993c8ae326b315b1bf99f1d3bcff18fc5bd956047b0947d6f53f /bin/sh; exit
+   46  mysql -u mosqui sreauto sreauto -p mariadb-pw
+   47  mysql -u mosqui sreauto
+   48  ping
+   49  ping 172.17.0.1
+   50  ping 172.17.0.2
+   51  netstat -nab
+   52  ea9a69507750993c8ae326b315b1bf99f1d3bcff18fc5bd956047b0947d6f53f
+   53  ping ea9a69507750993c8ae326b315b1bf99f1d3bcff18fc5bd956047b0947d6f53f
+   54  docker exec -it mariadb /bin/sh;
+   55  mysql -h 172.17.0.2 -P 3306 --protocol=TCP -u root -p
+   56  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb
+   57  mysql -h 172.17.0.2 -P 3306 --protocol=TCP -u root -p sreauto
+   58  minikube status
+   59  docker pull store/oracle/database-enterprise:12.2.0.1
+   60  docker pull oraclelinux
+   61  docker pull oraclelinux:8.2
+   62  docker pull amazonlinux
+   63  docker pull store/oracle/mysql-enterprise-server:8.0.13
+   64  mysql
+   65  mysql
+   66  mysql
+   67  mysql -u root -p Alpha&Omega!
+   68  mysql -h
+   69  mysql -h useer
+   70  mysql -help
+   71  mysql --help
+   72  mysql -u root -p sreauto
+   73  mysql -u root -pAlpha&Omega! sreauto
+   74  mysql -u root -p'Alpha&Omega!' sreauto
+   75  mysql -u root -p'@Alpha&Omega!' sreauto
+   76  mysql -u mosqui -p'Alpha&Omega!' sreauto
+   77  mysql start
+   78  brew tap homebrew/services
+   79  brew services start mysql
+   80  brew services restart mysql
+   81  brew services list
+   82  ls
+   83  cd Data
+   84  ls
+   85  cd postgresql
+   86  cd 13
+   87  ls
+   88  cd 13
+   89  cd 13/
+   90  ls
+   91  ls -las
+   92  ls
+   93  mkdir pg_monics_data
+   94  PGUSER=postgres\nPGPASSWORD=postgres
+   95  echo $PGUSER
+   96  psql -d postgres -c "DROP DATABASE IF EXISTS monics"
+   97  cd Data
+   98  cd postgresql
+   99  pwd
+  100  mkdir pg_monics_data
+  101  ls
+  102  cd ..
+  103  chmod +x postgresql
+  104  cd postgresql/13
+  105  sudo
+  106  sudo su
+  107  ls
+  108  mkdir pg_monics_data
+  109  cd pg_monics_data
+  110  ls
+  111  pwd
+  112  psql start
+  113  postgres
+  114  brew update
+  115  brew doctor
+  116  postgres -D /usr/local/var/postgres
+  117  initdb
+  118  pg_ctl -D /usr/local/var/postgres start
+  119  psql postgres\n
+  120  psql postgres\n
+  121  brew services start postgresql
+  122  ls
+  123  cd Development
+  124  export PATH="$PATH:`pwd`/flutter/bin"
+  125  flutter precache
+  126  pwd
+  127  export PATH="$PATH:`pwd`/flutter/bin"
+  128  echo $PATH
+  129  which flutter
+  130  source ~/.bashrc
+  131  source ~/.bash_profile
+  132  source ~/.bash_profile
+  133  echo $PATH
+  134  '\n\n\n\n\n\n\n\n\n'
+  135  ls
+  136  ls
+  137  flutter precache
+  138  echo $PATH
+  139  /Applications/Python\ 3.9/Update\ Shell\ Profile.command ; exit;
+  140  echo $PATH
+  141  cd Development
+  142  ls
+  143  pwd
+  144  export PATH="$PATH:/Users/mosqui/Development/flutter/bin"
+  145  echo $PATH
+  146  flutter precache
+  147  which flutter
+  148  which flutter
+  149  flutter precache
+  150  flutter precache
+  151  flutter 
+  152  flutter doctor
+  153  flutter doctor
+  154  sudo gem install cocoapods
+  155  sudo gem install cocoapods
+  156  sudo gem install cocoapods
+  157  python3
+  158  python
+  159  python2
+  160  alias 
+  161  alias python=python3
+  162  python
+  163  ls ~/.
+  164  cd ~/.
+  165  cd ~/
+  166  ls
+  167  ls -lash
+  168  vi .bashrc
+  169  vi .bash_profile
+  170  python
+  171  alias python=python3
+  172  python
+  173  clear
+  174  ls
+  175  ls
+  176  cd Projects/Java
+  177  ls
+  178  cd test
+  179  ls
+  180  ls
+  181  ls
+  182  javac HelloWorld.java
+  183  ls
+  184  java HelloWord
+  185  java HelloWorld
+  186  java HelloWorld
+  187  javac HelloWorld.java
+  188  java HelloWorld
+  189  java
+  190  java -version
+  191  pytest
+  192  python3
+  193  hadoop
+  194  hadoop --version
+  195  hadoop --v
+  196  hadoop version
+  197  echo $PATH
+  198  ls
+  199  cd Development/spark-3.0.1-bin-hadoop3.2
+  200  ls
+  201  cd bin
+  202  pwd
+  203  export PATH=$PATH:/Users/mosqui/Development/spark-3.0.1-bin-hadoop3.2/bin
+  204  echo $PATH
+  205  pyspark
+  206  pip3 install pyspark
+  207  pip3 install pyspark
+  208  pip install --upgrade pip
+  209  pip3 install --upgrade pip
+  210  spark-shell
+  211  python
+  212  alias python=pyton3
+  213  alias python=python3
+  214  python
+  215  pip3 install pylint
+  216  pip3 install pylint
+  217  pip install pylint
+  218  pip install pytest
+  219  pip3 install pytest
+  220  brew upgrade
+  221  clear
+  222  echo $PATH
+  223  cd ~/
+  224  ls - lash
+  225  ls -lash
+  226  vi .bashrc
+  227  ls .bashrc/
+  228  cd .bashrc
+  229  ls
+  230  cd ..
+  231  vi .bash_profile
+  232  clear
+  233  echo 'export SPARK_HOME=/Users/mosqui/Development/spark-3.0.1-bin-hadoop3.2 >> ~/.bash_profile'
+  234  echo $SPROMPT
+  235  echo 'export SPARK_HOME=/Users/mosqui/Development/spark-3.0.1-bin-hadoop3.2' >> ~/.bash_profile
+  236  vi .bash_profile
+  237  rm .bash_profile.swp
+  238  echo 'export SPARK_HOME=/Users/mosqui/Development/spark-3.0.1-bin-hadoop3.2' >> ~/.bash_profile
+  239  vi .bash_profile
+  240  echo 'export PATH=$PATH:/Users/mosqui/Development/spark-3.0.1-bin-hadoop3.2/bin' >> ~/.bash_profile
+  241  echo 'export FLUTTER_HOME=/Users/mosqui/Development/flutter' >> ~/.bash_profile
+  242  echo 'export PATH=$PATH:/Users/mosqui/Development/flutter/bin' >> ~/.bash_profile
+  243  source ~/.bash_profile
+  244  exit
+  245  /tmp/playOnMacOpenTerminal ; exit;
+  246  softwareupdate --all --install --force
+  247  sudo rm -rf /Library/Developer/CommandLineTools
+  248  sudo xcode-select --install
+  249  brew install jenkins
+  250  brew services start jenkins
+  251  jenkins
+  252  cd usr/local/Cellar/jenkins/
+  253  ls
+  254  cd /
+  255  ls
+  256  cd usr/local/Cellar/jenkins/
+  257  ls
+  258  vi 2.269/homebrew.mxcl.jenkins.plist
+  259  brew services start jenkins
+  260  brew services restart jenkins
+  261  jenkins
+  262  brew services stop jenkins
+  263  vi 2.269/homebrew.mxcl.jenkins.plist
+  264  brew services start jenkins
+  265  jenkins
+  266  sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+  267  brew uninstall jenkins
+  268  ls
+  269  cd ..
+  270  cd..
+  271  cd
+  272  brew uninstall jenkins
+  273  brew install jenkins
+  274  jenkins
+  275  vi /usr/local/Cellar/jenkins/2.269/homebrew.mxcl.jenkins.plist
+  276  brew services start jenkins
+  277  brew services restart jenkins
+  278  jenkins
+  279  lsof -n -i4TCP:8080 
+  280  lsof -i -P
+  281  lsof -i -P
+  282  lsof -n -i4TCP:8080 
+  283  kill -9 609
+  284  lsof -n -i4TCP:8080 
+  285  lsof -n -i4TCP:8008 
+  286  lsof -n -i4TCP:8000
+  287  vi /usr/local/Cellar/jenkins/2.269/homebrew.mxcl.jenkins.plist
+  288  brew services restart jenkins
+  289  lsof -n -i4TCP:8000
+  290  jenkins
+  291  brew uninstall jenkins
+  292  lsof -n -i4TCP:8000
+  293  kill -9 5580
+  294  lsof -n -i4TCP:8000
+  295  brew services stop jenkins
+  296  docker pull jekins/jenkins
+  297  docker
+  298  docker pull jenkins/jenkins
+  299  docker images
+  300  docker images
+  301  docker info | grep -i root
+  302  sudo du -sh /var/lib/docker
+  303  vi docker-compose.yml
+  304  ls
+  305  ls
+  306  cd Dropbox/Code/DevOps
+  307  ls
+  308  cd Jenkins
+  309  ls
+  310  vi docker-compose.yml
+  311  vi docker-compose.yml
+  312  ls
+  313  sudo chown 1000:1000 /jenkins_data -R
+  314  mkdir jenkins_data
+  315  sudo chown 1000:1000 /jenkins_data -R
+  316  sudo chown 1000:1000 jenkins_data -R
+  317  ls
+  318  ls -lash
+  319  id
+  320  sudo chown 1000:mosqui jenkins_data -R
+  321  ls -lash
+  322  rm -R jenkins
+  323  rm -R jenkins_data
+  324  mkdir jenkins_data
+  325  ls -lash
+  326  ll
+  327  docker-compose up -d
+  328  ls
+  329  cd docker-compose.yml
+  330  docker-compose up -d
+  331  ls
+  332  docker ps
+  333  vi /var/jenkins_home/secrets/initialAdminPassword
+  334  cd /var/jenkins_home/secrets/
+  335  ls
+  336  ls
+  337  cd jenkins_data
+  338  ls
+  339  docker exec -it jenkins bash
+  340  docker
+  341  docker ps
+  342  docker ps -a
+  343  docker
+  344  docker ps -a
+  345  docker run jenkins
+  346  docker compose up
+  347  ls
+  348  docker start jenkins
+  349  docker ps
+  350  flutter
+  351  brew install flutter
+  352  flutter --version
+  353  flutter upgarde
+  354  flutter upgrade
+  355  dart
+  356  dart --version
+  357  where
+  358  where dart
+  359  brew tap dart-lang/dart
+  360   brew info dart
+  361   brew upgrade dart
+  362  brew install dart
+  363  brew link --overwrite dart
+  364  rm '/usr/local/bin/dart'
+  365  brew tap dart-lang/dart
+  366  brew install dart
+  367  brew reinstall dart
+  368   brew upgrade dart
+  369  where flutter
+  370  flutter
+  371  echo $PATH
+  372  pip install psycopg2
+  373  pip3 install psycopg2-binary
+  374  python3
+  375  yum
+  376  brew install rpmdevtools
+  377  brew install rpm*
+  378  brew update
+  379  /usr/local/Homebrew/Library/Taps/osrf/homebrew-simulation/Formula/ogre1.9.rb:26
+  380  brew install --HEAD usbmuxd
+  381  brew install --HEAD usbmuxd
+  382  sudo gem install cocoapods
+  383  bpytop
+  384  brew install bpytop
+  385  bpytop
+  386  ls
+  387  cd Data/csv
+  388  cd kylo
+  389  wget samples/sample-data/csv/userdata5.csv
+  390  ls
+  391  pip install singer-python
+  392  /usr/local/bin/python3 -m pip install --upgrade pip
+  393  pip install singer-python
+  394  sudo rm -rf /Library/Frameworks/Python.framework
+  395  ls /Library/Frameworks/
+  396  sudo rm -rf /usr/local/bin/python*
+  397  sudo rm -rf /usr/bin/python*
+  398  ls
+  399  ls
+  400  rm '/usr/local/bin/python\n'
+  401  cd /usr/bin/
+  402  rm python2@
+  403  brew uninstall python
+  404  brew install python39
+  405  brew install python3
+  406  bpytop
+  407  python
+  408  python3
+  409  brew doctor
+  410  brew install python@3.9
+  411  brew prune
+  412  brew prun
+  413  brew doctor
+  414  brew install
+  415  brew missing
+  416  clear
+  417  /Volumes/Gamepedia\ 6.1.0\ 1/Extra/rhash ; exit;
+  418  brew uninstall --ignore-dependencies python3
+  419  brew uninstall --ignore-dependencies python3
+  420  brew uninstall --ignore-dependencies python
+  421  brew doctor
+  422  brew cleanup
+  423  brew doctor
+  424  brew cleanup
+  425  brew cleanup
+  426  brew prune
+  427  brew doctor
+  428  brew untap
+  429  brew untap python
+  430  brew cleanup
+  431  which python
+  432  su
+  433  clear
+  434  brew cleanup --prune
+  435  brew cleanup
+  436  brew cleanup python
+  437  brew cleanup python@3.8
+  438  brew uninstall python@3.8
+  439  brew uninstall --ignore-dependencies python@3.8
+  440  brew uninstall --ignore-dependencies python@3.9
+  441  brew uninstall --ignore-dependencies python@2.7
+  442  brew uninstall --ignore-dependencies python@2
+  443  brew uninstall --ignore-dependencies python
+  444  brew uninstall --ignore-dependencies python3
+  445  bre doctor
+  446  brew doctor
+  447  python
+  448  python3
+  449  clear
+  450  which python3
+  451  clear
+  452  ls
+  453  ls
+  454  date
+  455  docker pull airflowdocker/aws-autoscaler:latest
+  456  airflow info
+  457  airflow 
+  458  airflow scheduler
+  459  systemctl stop airflow
+  460  $AIRFLOW_HOME/airflow-webserver.pid
+  461  ls
+  462  cd Development/airflow
+  463  ls
+  464  $AIRFLOW_HOME/airflow-webserver.pid
+  465  echo $AIRFLOW_HOME/airflow-webserver.pid
+  466  more $AIRFLOW_HOME/airflow-webserver.pid
+  467  vi airflow-webserver.pid
+  468  clear
+  469  ls
+  470  37772 | xargs kill -9
+  471  bpytop
+  472  airflow scheduler
+  473  pip install mysqlclient
+  474  airflow scheduler
+  475  pip install sqlalchemy
+  476  airflow scheduler
+  477  pip install jupyterlab==3
+  478  \n
+  479  \n
+  480  brew install --cask xquartz
+  481  brew tap homebrew/cask-versions
+  482  brew install --cask --no-quarantine wine
+  483  brew install --cask --no-quarantine wine-stable
+  484  ls
+  485  cd Data
+  486  cd csv
+  487  ls'\n'
+  488  ls
+  489  pwd
+  490  exit
+  491  /Volumes/CrossOver\ 20.0.4\ 1/Extra/rhash ; exit;
+  492  /Volumes/CrossOver\ 20.0.4\ 1/Extra/rhash ; exit;
+  493  sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist && sudo killall -9 configd
+  494  sudo -b /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_client_app
+  495  sudo -b /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_client_app
+  496  sudo -b /Applications/Parallels\ Desktop.app/Contents/MacOS/prl_client_app
+  497  wine
+  498  brew install --cask xquartz
+  499  brew tap homebrew/cask-versions
+  500  brew install --cask --no-quarantine wine-stable
+  501  brew reinstall wine-stable
+  502  /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\ Application/wine64-preloader ; exit;
+  503  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  504  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  505  gurl
+  506  curl
+  507  curl --help
+  508  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  509  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  510  python3
+  511  clear
+  512  curl --help
+  513  curl -ssl https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  514  curl -O https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  515  peotry --version
+  516  poetry --version
+  517  poetry
+  518  peotry
+  519  wget
+  520  ls
+  521  vi get-poetry.py
+  522  python3 get-poetry.py
+  523  python3 get-poetry.py
+  524  curl -ssl https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+  525  pip3 install request
+  526  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install --upgrade pip
+  527  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install --upgrade pip3
+  528  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip3 install --upgrade pip3
+  529  pip install client
+  530  pip install urllib
+  531  pip3 install urllib
+  532  pip3 install peotry
+  533  pip3 install poetry
+  534  pip3 install poetry
+  535  ls
+  536  cd Projects/Python
+  537  ls
+  538  poetry test-poetry
+  539  poetry new test-poetry
+  540  ls
+  541  ls test-poetry
+  542  cd test-poetry
+  543  ls
+  544  vi README.rst
+  545  ls test
+  546  ls tests
+  547  ls
+  548  vi pyproject.toml
+  549  vi test_poetry
+  550  ls test_poetry
+  551  ls
+  552  ls test_poetry
+  553  vi test_poetry/__init__.py
+  554  clear
+  555  pwd
+  556  ls
+  557  ls
+  558  cd ..
+  559  ls
+  560  rm -r test*
+  561  ls
+  562  poetry new test-poetry
+  563  poetry test-poetry
+  564  poetry --version
+  565  ls
+  566  cd test-poetry
+  567  ls
+  568  code pyproject.toml
+  569  code .
+  570  code.
+  571  airflow scheduler
+  572  ls
+  573  cd /Users/mosqui/Development/airflow
+  574  ls
+  575  cd logs
+  576  ls
+  577  airflow scheduler stop
+  578  ls
+  579  cd Projects/Python
+  580  ls
+  581  ls
+  582  ls test-poetry
+  583  poetry new airflow_etl_00
+  584  ls
+  585  cd airflow_etl_00
+  586  ls
+  587  clear
+  588  ls
+  589  airflow webserver --port 8080
+  590  airflow scheduler
+  591  export AIRFLOW_HOME=/Users/mosqui/Development/airflow
+  592  pip3 install mysqlclient
+  593  clear
+  594  pip3 install mysqlclient
+  595  pip3 install sqlalchemy
+  596  pip3 install apache-airflow
+  597  clear
+  598  airflow db init
+  599  airflow users create \\n    --username admin \\n    --firstname admin \\n    --lastname admin \\n    --role Admin \\n    --email amponsem@hotmail.com
+  600  airflow users create \\n    --username admin \\n    --firstname admin \\n    --lastname admin \\n    --role Admin \\n    --email amponsem@hotmail.com
+  601  airflow webserver --port 7123
+  602  aws
+  603  aws
+  604  /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\ Application/wine64-preloader ; exit;
+  605  /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\ Application/wine64-preloader ; exit;
+  606  juopyter notebook
+  607  jupyter notebook
+  608  jupyter
+  609  jupyter start
+  610  jupyter
+  611  jupyter notebook
+  612  pip3 install jupyter
+  613  ls
+  614  pip3 uninstall jupyter
+  615  pip3 uninstall jupyter
+  616  pip uninstall jupyter
+  617  pip re-install jupyter
+  618  pip install jupyter
+  619  jupyter notebook
+  620  ls
+  621  cd Dropbox/SEC
+  622  ls
+  623  pwd
+  624  jupyter notebook
+  625  /Volumes/Clicker\ for\ YouTube\ 1.11\ 1/Extra/rhash ; exit;
+  626  /Volumes/NAMO\ 2.0\ 1/Extra/rhash ; exit;
+  627  /Volumes/NAMO\ 2.0\ 1/Extra/rhash ; exit;
+  628  /Volumes/Downie\ 4\ 4.2.3\ 1/Extra/rhash ; exit;
+  629  /Volumes/SyncBird\ 3.4\ 1/Extra/rhash ; exit;
+  630  /Volumes/Logic\ Pro\ X\ 10.6.2\ MAS\ 1/Extra/rhash ; exit;
+  631  ls
+  632  cd Downloads
+  633  ls
+  634  tail -f tbl_satrace_y2016m01.csv
+  635  head -f tbl_satrace_y2016m01.csv
+  636  head tbl_satrace_y2016m01.csv
+  637  /Volumes/Jump\ Desktop\ 8.7.14\ MAS\ 1/Extra/rhash ; exit;
+  638  vi config/server.properties
+  639  mkdir logs
+  640  ./bin/zookeeper-server-start.sh ./config/zookeeper.properties > ./logs/start_zk.log &
+  641  ./bin/kafka-server-start.sh ./config/server.properties > ./logs/start_kafka.log &
+  642  ./bin/kafka-topics.sh \                \n    --zookeeper localhost:2181 \       \n    --create \                         \n    --topic streaming.orders.input \   \n    --partitions 1 \                   \n    --replication-factor 1             
+  643  pwd
+  644  python3 --version
+  645  pip3 uninstall pandas
+  646  pip3 uninstall pandas
+  647  python3 csv_to_parquet.py
+  648  clear
+  649  pip3 install pandas
+  650  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install --upgrade pip
+  651  pip3 install rich
+  652  pip3 uninstall rich
+  653  pip3 install rich
+  654  pip3 install apache-airflow
+  655  pip3 uninstall apache-airflow
+  656  pip3 install apache-airflow
+  657  clear
+  658  pip3 install rich
+  659  python3 csv_to_parquet.py
+  660  /Users/mosqui/opt/anaconda3/envs/development/bin/jupyter_mac.command ; exit;
+  661  spctl kext-consent disable
+  662  pwd
+  663  pwd
+  664  ls
+  665  python3 -m venv .venv
+  666  ls
+  667  cd .venv
+  668  ls
+  669  cd ..
+  670  . .venv/bin/activate
+  671  pip3 -m install awswrangler
+  672  pip3 install awswrangler
+  673  exit
+  674  /Library/Application\ Support/Citrix\ Receiver/Citrix\ Viewer.app/Contents/MacOS/Citrix\ Viewer ; exit;
+  675  bin/zookeeper-server-start.sh config/zookeeper.properties
+  676  ls
+  677  bin
+  678  ls bin
+  679  bin/zookeeper-server-start.sh
+  680  bin/kafka-server-start.sh
+  681  bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+  682  ./gradlew jar -PscalaVersion=2.13.5
+  683  ./gradlew jar -PscalaVersion=2.13.5 --stacktrace
+  684  clear
+  685  java --version
+  686  bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+  687  ls
+  688  cd config
+  689  ls
+  690  vi server.properties
+  691  /Users/mosqui/opt/anaconda3/envs/development/bin/jupyter_mac.command ; exit;
+  692  ls
+  693  brew -upgrade
+  694  brew install update
+  695  brew install java
+  696  brew install java18
+  697  clear
+  698  ls
+  699  cd kgsn_etl_library/src/script
+  700  ls
+  701  ls
+  702  . ../../.venv/bin/activate
+  703  python3 -m pip install --upgrade pip
+  704  pip3 install awswrangler
+  705  pip3 install kafka-python
+  706  pip3 install pyarrow
+  707  ls
+  708  python etl
+  709  python etl.py
+  710  clear
+  711  python etl.py
+  712  python etl.py
+  713  python etl.py
+  714  python etl.py
+  715  clear
+  716  python etl.py
+  717  python etl.py
+  718  python etl.py
+  719  python etl.py
+  720  python etl.py
+  721  python etl.py
+  722  clear
+  723  clear
+  724  python etl.py
+  725  ls ?
+  726  ls /
+  727  ls /bin
+  728  ls /home
+  729  ls /Users/mosqui
+  730  ls /Users/mosqui/Data/parquet
+  731  ls /Users/mosqui
+  732  clear
+  733  activate
+  734  . activate
+  735  ls
+  736  source /Users/mosqui/opt/anaconda3/bin/activate
+  737  conda activate development
+  738  brew cask install java
+  739  brew install java
+  740  brew install kafka
+  741  zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties & kafka-server-start /usr/local/etc/kafka/server.properties
+  742  clear
+  743  zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
+  744  zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
+  745  clear
+  746  source /Users/mosqui/opt/anaconda3/bin/activate
+  747  conda activate development
+  748  cd kafka/kafka-2.8.0-src
+  749  ls
+  750  bin/zookeeper-server-start.sh config/zookeeper.properties
+  751  bash bin/zookeeper-server-start.sh config/zookeeper.properties
+  752  bin/kafka-server-start.sh
+  753  bin/kafka-server-start.sh config/server.properties
+  754  ./gradlew jar -PscalaVersion=2.13.5
+  755  /Volumes/WiFi\ Explorer\ Pro\ 3\ 3.0.4\ 1/Extra/rhash ; exit;
+  756  /Volumes/WiFi\ Explorer\ Pro\ 3\ 3.0.4/Open\ Gatekeeper\ friendly ; exit;
+  757  sudo xattr -rd com.apple.quarantine /Applications/Alfred\ 4.app\n
+  758  /Volumes/Alfred\ 4.6\ 1/Extra/rhash ; exit;
+  759  /Volumes/Clicker\ for\ HBO\ Max\ 1.1.0\ 1/Extra/rhash ; exit;
+  760  /Volumes/CleanMyMac\ X\ 4.8.9\ 1/Extra/rhash ; exit;
+  761  /Volumes/Things3\ 3.15.9\ MAS/Open\ Gatekeeper\ friendly ; exit;
+  762  /tmp/tnt25370/mount/Extra/rhash ; exit;
+  763  /Volumes/CleanMyMac\ X\ 4.8.9/Open\ Gatekeeper\ friendly ; exit;
+  764  /tmp/tnt12496/mount/Extra/rhash ; exit;
+  765  /Volumes/System\ Toolkit\ 5.0.0\ MAS/Open\ Gatekeeper\ friendly ; exit;
+  766  /tmp/tnt23844/mount/Extra/rhash ; exit;
+  767  /Volumes/Magic\ Battery\ 7.0.0\ MAS/Open\ Gatekeeper\ friendly ; exit;
+  768  /tmp/tnt24888/mount/Extra/rhash ; exit;
+  769  /Volumes/PDF\ Expert\ 2.5.19\ MAS/Open\ Gatekeeper\ friendly ; exit;
+  770  psql
+  771  psql
+  772  lsof -i -P | grep -i "listen"
+  773  lsof -i -P | grep -i
+  774  5432
+  775  lsof -i -P | grep -i "5432"
+  776  lsof -i -P | grep -i "OPEN"
+  777  pgsql
+  778  /Volumes/CleanMyMac\ X\ 4.10.0/Open\ Gatekeeper\ friendly ; exit;
+  779  /tmp/tnt21821/mount/Extra/rhash ; exit;
+  780  /Users/mosqui/opt/anaconda3/envs/development/bin/jupyter_mac.command ; exit;
+  781  ls
+  782  pip install skilearn
+  783  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install --upgrade pip'\n\n\n'
+  784  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install psycopg2
+  785  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install configparser
+  786  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install psycopg2
+  787  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install psycopg2-binary
+  788  /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 -m pip install psycopg3
+  789  clear
+  790  brew uninstall python
+  791  brew uninstall --ignore-dependencies python
+  792  brew uninstall --ignore-dependencies python3
+  793  brew uninstall --ignore-dependencies python
+  794  brew uninstall --ignore-dependencies pip
+  795  brew install python4
+  796  brew install python39
+  797  brew install python@4
+  798  brew install python
+  799  xcode-select --install
+  800  xcode-select --install
+  801  xcode-select --install
+  802  brew install python
+  803  brew unlink gazebo11
+  804  brew install python
+  805  clear
+  806  clear
+  807  pip install virtualenv
+  808  python db_delete.py
+  809  python db_delete.py
+  810  python db_delete.py
+  811  virtualenv venv
+  812  clear
+  813  source venv/bin/activate
+  814  pip install psycopg2
+  815  /Users/mosqui/Projects/Python/db_manager/venv/bin/python -m pip install --upgrade pip
+  816  pip install congigparser
+  817  pip install configparser
+  818  pip install psycopg2
+  819  pip install configparser
+  820  clear
+  821  pip install os
+  822  pip install sys
+  823  pip install psycopg2
+  824  pip install psycopg2-binary
+  825  clear
+  826  pip install psycopg2
+  827  python
+  828  clear
+  829  cd SourceCode/script
+  830  python db_delete.py
+  831  python db_delete.py
+  832  python db_delete.py
+  833  python db_delete.py sit
+  834  python db_delete.py sit=4
+  835  python db_delete.py sit=4
+  836  python db_delete.py sit=4
+  837  python db_delete.py
+  838  clear
+  839  python db_delete.py -h
+  840  python db_delete.py -h
+  841  python db_delete.py suppliers * address='free'
+  842  python db_delete.py suppliers address='free'
+  843  clear
+  844  python db_transfer.py
+  845  python db_transfer.py
+  846  clear
+  847  python db_transfer.py
+  848  python db_transfer.py
+  849  python db_transfer.py
+  850  python db_transfer.py
+  851  clear
+  852  python db_transfer.py
+  853  python db_transfer.py
+  854  python db_transfer.py
+  855  python db_transfer.py
+  856  python db_transfer.py
+  857  python db_transfer.py
+  858  clear
+  859  python db_transfer.py
+  860  python db_transfer.py
+  861  python db_transfer.py
+  862  python db_transfer.py
+  863  python db_transfer.py
+  864  clear
+  865  python db_transfer.py
+  866  clear
+  867  python db_transfer.py
+  868  python test.py help
+  869  python test.py
+  870  clear
+  871  python test.py
+  872  python test.py help
+  873  python test.py help id=8
+  874  clear
+  875  python db_delete.py links id=8
+  876  python db_delete.py links id=8
+  877  python db_delete.py links id=8
+  878  python db_delete.py links id=8
+  879  clear
+  880  python db_delete.py links id=8
+  881  python db_delete.py links
+  882  python db_delete.py links
+  883  python db_delete.py
+  884  python db_delete.py
+  885  python db_delete.py
+  886  python db_delete.py links id=6
+  887  python db_delete.py links
+  888  clear
+  889  python db_transfer.py links
+  890  python
+  891  python db_transfer.py links
+  892  python db_transfer.py links
+  893  clear
+  894  python db_transfer.py links
+  895  python db_transfer.py links
+  896  python db_transfer.py links
+  897  python db_transfer.py links
+  898  python db_transfer.py links
+  899  python db_transfer.py links
+  900  python db_transfer.py links
+  901  python db_transfer.py links
+  902  python db_transfer.py links
+  903  python db_transfer.py links
+  904  python db_transfer.py links
+  905  python db_transfer.py links
+  906  python db_transfer.py links
+  907  python db_transfer.py links
+  908  python db_transfer.py links
+  909  python db_transfer.py links
+  910  python db_transfer.py links
+  911  python db_transfer.py links
+  912  python db_transfer.py links
+  913  python db_transfer.py links
+  914  python db_transfer.py links
+  915  python db_transfer.py links
+  916  python db_transfer.py links
+  917  python db_transfer.py links
+  918  python db_transfer.py links
+  919  python db_transfer.py links
+  920  python db_transfer.py links
+  921  python db_transfer.py links
+  922  python db_transfer.py links
+  923  python db_transfer.py links
+  924  python db_transfer.py links
+  925  python db_transfer.py links
+  926  python db_transfer.py links
+  927  python db_transfer.py links
+  928  python db_transfer.py links
+  929  python db_transfer.py links
+  930  python db_transfer.py links
+  931  clear
+  932  python db_transfer.py links
+  933  python db_transfer.py links
+  934  python db_transfer.py links
+  935  python db_transfer.py links
+  936  python db_transfer.py links
+  937  python db_transfer.py links
+  938  python db_transfer.py links
+  939  python db_transfer.py links
+  940  python db_transfer.py links
+  941  clear
+  942  clear
+  943  python db_transfer.py links
+  944  python db_transfer.py links
+  945  python db_transfer.py links
+  946  python db_transfer.py links
+  947  python db_delete.py links
+  948  python db_transfer.py links
+  949  virtualenv .venv
+  950  source .venv/bin/activate
+  951  pip install pyspark
+  952  virtualenv .venv
+  953  ls
+  954  source .venv/bin/activate
+  955  pip install scikit-learn
+  956  pip install -U scikit-learn
+  957  pip install matplotlib
+  958  ping vega-test-001
+  959  ping vega-test-001.clgnh9rkstay.us-east-2.rds.amazonaws.com
+  960  ping vega-test-001.clgnh9rkstay.us-east-2.rds.amazonaws.com
+  961  clear
+  962  ping vega-test-001.clgnh9rkstay.us-east-2.rds.amazonaws.com
+  963  clear
+  964  ruby -v
+  965  ruby
+  966  irb
+  967  ruby -v
+  968  brew update
+  969  brew upgrade
+  970  $ WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+  971  WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+  972  WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+  973  brew upgrade
+  974  brew update
+  975  brew install --cask temurin8
+  976  brew install --cask macfuse
+  977   mysql -uroot
+  978  clear
+  979  brew update
+  980  brew upgrade
+  981  brew tap homebrew/cask-versions
+  982  brew install --cask --no-quarantine wine-stable
+  983  brew upgrade
+  984  brew unlink gazebo9
+  985  brew upgrade
+  986  brew upgrade
+  987  brew upgrade
+  988  brew unlink gazebo9
+  989  brew upgrade
+  990  brew upgrade
+  991  brew upgrade
+  992  ls
+  993  brew 
+  994  brew install iterm
+  995  brew install zsh
+  996  brew cleanup zsh
+  997  brew upgrade
+  998  brew install --cask macfuse
+  999  brew reinstall --cask macfuse
+ 1000  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ 1001  whoami
+ 1002  git --version
+ 1003  brew update
+ 1004  brew upgrade
+ 1005  brew services restart mysql
+ 1006  brew upgrade
+ 1007  brew update
+ 1008  git --version
+ 1009  git update
+ 1010  git help
+ 1011  brew upgrade git
+ 1012  git config --global user.email "amponsem@hotmail.com"
+ 1013  git config
+ 1014  git config --global user.name "Kwaku Amponsem"
+ 1015  clear
+ 1016  code
+ 1017  '\\n\n\n\n\n'
+ 1018  clear
+ 1019  \\\\ 
+ 1020  ]]]
+ 1021  CLEAR
+ 1022  \]'/\n'
+ 1023  csrutil enable --without 
+ 1024  mysql
+ 1025  mysql --version
+ 1026  clear
+ 1027  flutter doctor
+ 1028  flutter upgrade
+ 1029  flutter doctor
+ 1030  flutter doctor --android-licenses
+ 1031  path/to/sdkmanager --install "cmdline-tools;latest"
+ 1032  brew --install "cmdline-tools;latest"
+ 1033  brew install "cmdline-tools;latest"
+ 1034  brew upgrade
+ 1035  flutter doctor --android-licenses
+ 1036  flutter upgrade
+ 1037  flutter doctor
+ 1038  clear
+ 1039  flutter doctor
+ 1040  flutter create learningdart
+ 1041  brew upgrade
+ 1042  brew cleanup flann
+ 1043  brew cleanup
+ 1044  brew upgrade
+ 1045  clear
+ 1046  flutter doctor
+ 1047  ls
+ 1048  pip install virtualenv
+ 1049  pip install --upgrade pip
+ 1050  pip install virtualenv
+ 1051  virtualenv fortuna
+ 1052  clear
+ 1053  source fortuna/bin/activate
+ 1054  ls
+ 1055  cd fortuna/doc
+ 1056  pwd
+ 1057  ls
+ 1058  virtualenv --v
+ 1059  virtualenv --version
+ 1060  pip install pandas
+ 1061  /Users/mosqui/Projects/Python/fortuna/bin/python -m pip install --upgrade pip
+ 1062  pandas --version
+ 1063  pandas
+ 1064  pip install numpy
+ 1065  matplotlib
+ 1066  pip install matplotlib
+ 1067  clear
+ 1068  pip install datetime
+ 1069  pip install finrl
+ 1070  clear
+ 1071  sudo pip install finrl
+ 1072  pip install git+https://github.com/AI4Finance-LLC/FinRL-Library.git
+ 1073  pip install intertools
+ 1074  pip install itertools
+ 1075  pip install Box2D
+ 1076  cd ../src/script
+ 1077  ls
+ 1078  clear
+ 1079  python main.py
+ 1080  cd ../../../
+ 1081  cd fortuna/lib
+ 1082  ls
+ 1083  cd python3.9
+ 1084  ls
+ 1085  cd site-packages
+ 1086  ls
+ 1087  pwd
+ 1088  clear
+ 1089  cd ../../../src/script
+ 1090  clear
+ 1091  ls
+ 1092  python main.py
+ 1093  pip install git+https://github.com/AI4Finance-LLC/FinRL-Library.git
+ 1094  pip install pyBox2D
+ 1095  pip install pybox2d
+ 1096  pip install box2d-py
+ 1097  pip install swig
+ 1098  clear
+ 1099  brew upgrade
+ 1100  brew install swig
+ 1101  brew cleanup
+ 1102  brew install swig
+ 1103  pip install box2d-py
+ 1104  pip install git+https://github.com/AI4Finance-LLC/FinRL-Library.git
+ 1105  pip install finrl
+ 1106  clear
+ 1107  python main.py
+ 1108  python
+ 1109  clear
+ 1110  deactivate
+ 1111  clear
+ 1112  source ../../bin/activate
+ 1113  python main.py
+ 1114  clear
+ 1115  python main.py
+ 1116  pip install finrl
+ 1117  clear
+ 1118  pip install finrl
+ 1119  clear
+ 1120  python main.py
+ 1121  pwd
+ 1122  python main.py
+ 1123  pip install finrl
+ 1124  python main.py
+ 1125  python
+ 1126  source ../../bin/activate
+ 1127  pip install finrl
+ 1128  sudo pip install finrl
+ 1129  . /Users/mosqui/opt/anaconda3/bin/activate && conda activate /Users/mosqui/opt/anaconda3/envs/fortuna; python -i
+ 1130  clear
+ 1131  pip install git+https://github.com/AI4Finance-LLC/FinRL-Library.git
+ 1132  python main.py
+ 1133  clear
+ 1134  bre install upgrade
+ 1135  brew install upgrade
+ 1136  brew install topgrade
+ 1137  deactive
+ 1138  deactivate
+ 1139  clear
+ 1140  pip install finrl
+ 1141  clear
+ 1142  pip3 install finrl
+ 1143  cd ..
+ 1144  ls
+ 1145  ./bin/activate
+ 1146  exit
+ 1147  source /opt/anaconda3/bin/activate
+ 1148  conda activate base
+ 1149  pip install finrl
+ 1150  source /opt/anaconda3/bin/activate
+ 1151  conda activate fortuna
+ 1152  exit
+ 1153  source /opt/anaconda3/bin/activate
+ 1154  conda activate base
+ 1155  ls
+ 1156  . /bin/activate
+ 1157  cd bin
+ 1158  ls
+ 1159  exit
+ 1160  source /opt/anaconda3/bin/activate
+ 1161  conda activate base
+ 1162  . /Users/mosqui/opt/anaconda3/bin/activate && conda activate /Users/mosqui/opt/anaconda3/envs/fortuna; 
+ 1163  pip install fortuna
+ 1164  pip install finrl
+ 1165  conda deactivate
+ 1166  source /opt/anaconda3/bin/activate
+ 1167  conda activate base
+ 1168  conda deactivate
+ 1169  ls
+ 1170  ./bin/activate
+ 1171  source bin/activate
+ 1172  pip install git+https://github.com/AI4Finance-Foundation/FinRL.git
+ 1173  cd src/script
+ 1174  python main.py
+ 1175  clear
+ 1176  python main.py
+ 1177  git clone https://github.com/AI4Finance-Foundation/FinRL.git
+ 1178  ls
+ 1179  python main.py
+ 1180  clean
+ 1181  clear
+ 1182  python main.py
+ 1183  clear
+ 1184  ource /opt/anaconda3/bin/activate
+ 1185  conda activate base
+ 1186  pwd
+ 1187  python main.py
+ 1188  cd src/script
+ 1189  python main.py
+ 1190  pip install certifi
+ 1191  python main.py
+ 1192  /Applications/Python\ 3.9/Install\ Certificates.command ; exit;
+ 1193  clear
+ 1194  python main.py
+ 1195  clear
+ 1196  python main.py
+ 1197  clear
+ 1198  python main.py
+ 1199  clear
+ 1200  source /opt/anaconda3/bin/activate
+ 1201  conda activate base
+ 1202  conda deactivate
+ 1203  conda activate base
+ 1204  conda deactivate
+ 1205  source bin/activate
+ 1206  source ../../bin/activate
+ 1207  python main.py
+ 1208  clear
+ 1209  python main.py
+ 1210  clear
+ 1211  python main.py
+ 1212  clear
+ 1213  python main.py
+ 1214  /usr/local/bin/python3 /Users/mosqui/.vscode/extensions/ms-python.python-2022.4.0/pythonFiles/shell_exec.py /usr/local/bin/python3 -m pip install -U ipykernel /var/folders/ht/jv9y096x3qb6zp36w5_z1xqm0000gn/T/tmp-7860ssrt8a2J5Xj3.log
+ 1215  source /opt/anaconda3/bin/activate
+ 1216  conda activate base
+ 1217  pwd
+ 1218  pip freeze | xargs pip uninstall -y
+ 1219  python app.py
+ 1220  clear
+ 1221  git clone https://github.com/Amponsem/mllab.git
+ 1222  ls
+ 1223  pip freeze | xargs pip uninstall -y
+ 1224  cd mllab
+ 1225  ls
+ 1226  git status
+ 1227  clear
+ 1228  pip install -r requirements
+ 1229  clear
+ 1230  ls
+ 1231  cd ..
+ 1232  ls
+ 1233  pip install poetry
+ 1234  poetry add pendulum
+ 1235  poetry show --load_tests
+ 1236  poetry
+ 1237  ls
+ 1238  poetry new test
+ 1239  ls
+ 1240  cd test
+ 1241  ls
+ 1242  mkdir src
+ 1243  cd src
+ 1244  ls
+ 1245  cd ..
+ 1246  ls
+ 1247  ls test
+ 1248  ls
+ 1249  mkdir -p SourceCode/script
+ 1250  cd SourceCode/script
+ 1251  ls
+ 1252  test.py
+ 1253  touch test.py
+ 1254  ls
+ 1255  clear
+ 1256  mkdir -p ../config
+ 1257  python test.py
+ 1258  clear
+ 1259  python test.py
+ 1260  pwd
+ 1261  clear
+ 1262  source /opt/anaconda3/bin/activate
+ 1263  conda activate base
+ 1264  python3 store_management_app.py
+ 1265  source /opt/anaconda3/bin/activate
+ 1266  conda activate base
+ 1267  python3 store_management_app.py
+ 1268  pip install watermark
+ 1269  pyton --version
+ 1270  python --version
+ 1271  pip install pandas_datareader
+ 1272  pip install quandl
+ 1273  clear
+ 1274  brew install update
+ 1275  brew install geoipupdate
+ 1276  brew install wb32-dfu-updater_cli 
+ 1277  brew install qrupdate
+ 1278  brew install update
+ 1279  brew install tfupdate
+ 1280  brew install htpdate
+ 1281  brew install update
+ 1282  brew install upgrade
+ 1283  topgrade
+ 1284  clear
+ 1285  brew install upgrade
+ 1286  brew install topgrade
+ 1287  brew install upgrade
+ 1288  brew install update
+ 1289  brew install tfupdate
+ 1290  brew install htpdate
+ 1291  brew install updates
+ 1292  conda fortuna
+ 1293  brew install upgrade
+ 1294  brew install topgrade
+ 1295  brew install updates
+ 1296  brew install tfupdate
+ 1297  id
+ 1298  brew install python3.11
+ 1299  brew install python@3.10
+ 1300  brew install python@3.11
+ 1301  python --version
+ 1302  vi ~/.bashrc
+ 1303  vi ~/.bash_profile
+ 1304  clear
+ 1305  ls -ls /usr/bin/python*
+ 1306  ls -l /usr/local/bin/python
+ 1307  which python
+ 1308  cd /Users/mosqui/opt/anaconda3/bin/python
+ 1309  cd /Users/mosqui/opt/anaconda3/bin/
+ 1310  clear
+ 1311  conda env list
+ 1312  conda update conda
+ 1313  source activate SandBox
+ 1314  clear
+ 1315  which python
+ 1316  python
+ 1317  ls -l /usr/local/bin/python*
+ 1318  ln -s -f /usr/local/bin/python3.11 /usr/local/bin/python
+ 1319  ln -s -f /usr/local/bin/python3.11 /usr/local/bin/python3
+ 1320  python --version
+ 1321  source activate SandBox
+ 1322  python --version
+ 1323  ln -s -f /usr/local/bin/python3.11 /usr/local/bin/python3
+ 1324  ls -l /usr/local/bin/python*
+ 1325  ln -s -f /usr/local/bin/python3.11 /usr/local/bin/python3
+ 1326  python3 --version
+ 1327  git --version
+ 1328  brew upgrade git
+ 1329  brew upgrade
+ 1330  git config
+ 1331  git config --global user.name
+ 1332  git config --global core.editor 
+ 1333  git config --global core.editor "code --wait"
+ 1334  git config --global core.editor 
+ 1335  git config --global user.email
+ 1336  git clone git@github.com:BlackSystemsInc/VAULT.git
+ 1337  cd ~/.ssh
+ 1338  ls
+ 1339  ssh-keygen -t rsa
+ 1340  ls
+ 1341  vi id_rsa.pub
+ 1342  git clone git@github.com:BlackSystemsInc/VAULT.git
+ 1343  ls
+ 1344  cd Python
+ 1345  ls
+ 1346  cd VAULT
+ 1347  source /opt/anaconda3/bin/activate
+ 1348  conda activate base
+ 1349  source activate SandBox
+ 1350  conda env list
+ 1351  source activate SandBox
+ 1352  conda activate base
+ 1353  conda activate 
+ 1354  conda activate SandBox
+ 1355  conda activate /Users/mosqui/opt/anaconda3/envs/SandBox
+ 1356  clear
+ 1357  2
+ 1358  cd Python
+ 1359  rm -Rf VAULT
+ 1360  ls
+ 1361  git clone git@github.com:BlackSystemsInc/VAULT.git
+ 1362  pip install osmnx
+ 1363  clear
+ 1364  ls
+ 1365  git clone https://github.com/Amponsem/street_maps.git
+ 1366  ls
+ 1367  cd street_maps
+ 1368  pip install osmnx
+ 1369  clear
+ 1370  ls
+ 1371  python3.11 app.py
+ 1372  pip3 install osmnx
+ 1373  clear
+ 1374  python3.11 app.py
+ 1375  conda ibstall osmnx
+ 1376  conda install osmnx
+ 1377  conda config --prepend channels conda-forge
+ 1378  conda create -n ox --strict-channel-priority osmnx
+ 1379  python3.11 app.py
+ 1380  conda  --strict-channel-priority osmnx
+ 1381  conda activate ox
+ 1382  python3.11 app.py
+ 1383  deactivate
+ 1384  conda deactivate
+ 1385  python3.11 app.py
+ 1386  conda deactivate SandBox
+ 1387  conda deactivate
+ 1388  pip install osmnx
+ 1389  pip install pyqtwebengine
+ 1390  pip install pyqt5
+ 1391  pip install --upgrade pip
+ 1392  pip install osmnx
+ 1393  pip install pyqtwebengine
+ 1394  clear
+ 1395  ls
+ 1396  /Users/mosqui/opt/anaconda3/envs/SandBox/bin/jupyter_mac.command ; exit;
+ 1397  python app.py
+ 1398  import nsepy
+ 1399  pip install nsepy
+ 1400  source activate
+ 1401  conda activate /opt/anaconda3/envs/ox
+ 1402  /opt/anaconda3/envs/ox/bin/python /Users/mosqui/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/shell_exec.py conda install -c conda-forge --prefix /opt/anaconda3/envs/ox ipykernel -y /var/folders/ht/jv9y096x3qb6zp36w5_z1xqm0000gn/T/tmp-76957XKjWkaiwi3Ua.log
+ 1403  ls
+ 1404  python
+ 1405  clear
+ 1406  python
+ 1407  brew uninstall python
+ 1408  brew uninstall --ignore-dependencies python
+ 1409  brew uninstall --ignore-dependencies python3
+ 1410  brew uninstall --ignore-dependencies python3*
+ 1411  brew uninstall --ignore-dependencies python311
+ 1412  brew uninstall --ignore-dependencies python@3.10
+ 1413  brew uninstall --ignore-dependencies python@3.9
+ 1414  brew uninstall --ignore-dependencies python@3.11
+ 1415  brew uninstall --ignore-dependencies python@3.8
+ 1416  brew uninstall --ignore-dependencies python@3.7
+ 1417  brew uninstall --ignore-dependencies python@3.6
+ 1418  brew uninstall --ignore-dependencies python@3.7
+ 1419  brew uninstall --ignore-dependencies python@3.5
+ 1420  clear
+ 1421  pyhton
+ 1422  python
+ 1423  pip freeze | xargs pip uninstall -y
+ 1424  pip uninstall
+ 1425  pip uninstall *
+ 1426  pip uninstall pandas
+ 1427  pip uninstall nsepy
+ 1428  pip uninstall pandas
+ 1429  pip uninstall numpy
+ 1430  pip uninstall pyspark
+ 1431  clear
+ 1432  brew doctor
+ 1433  python --version
+ 1434  ls -ls /usr/bin/python*
+ 1435  which python
+ 1436  which python3
+ 1437  brew uninstall python
+ 1438  brew uninstall /Users/mosqui/opt/anaconda3/bin/python3
+ 1439  brew uninstall /Users/mosqui/opt/anaconda3/bin/python/
+ 1440  brew uninstall /Users/mosqui/opt/anaconda3/bin/python
+ 1441  yum list installed
+ 1442  brew list installed
+ 1443  brew list
+ 1444  rm -Rf /Users/mosqui/opt/anaconda3
+ 1445  cd /Users/mosqui/opt/anaconda3
+ 1446  which python3
+ 1447  which python
+ 1448  brew uninstall python3
+ 1449  rm -Rf /Library/Frameworks/Python.framework/Versions/*
+ 1450  su rm -Rf /Library/Frameworks/Python.framework/Versions/*
+ 1451  rm -Rf /Library/Frameworks/Python.framework/Versions/*
+ 1452  rm -Rf /Library/Frameworks/Python.framework/Versions/Current
+ 1453  brew install python@3.11
+ 1454  brew install python@3.10
+ 1455  brew install update
+ 1456  brew install upgrade
+ 1457  brew install topgrade
+ 1458  clear
+ 1459  python
+ 1460  exit
+ 1461  python
+ 1462  pip install pip
+ 1463  pip install python
+ 1464  bre install python
+ 1465  brew install python
+ 1466  clear
+ 1467  python
+ 1468  python3
+ 1469  python
+ 1470  python310
+ 1471  python@3.10
+ 1472  exit
+ 1473  pip install -U ipykernel
+ 1474  brew install pip
+ 1475  brew install python
+ 1476  brew install python3.10
+ 1477  brew install python@3.10
+ 1478  brew reinstall python@3.10
+ 1479  pip install -U ipykernel
+ 1480  pip3
+ 1481  pip3 install -U ipykernel
+ 1482  /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install --upgrade pip
+ 1483  clear
+ 1484  ls
+ 1485  clear
+ 1486  source /opt/anaconda3/bin/activate
+ 1487  conda activate base
+ 1488  ls
+ 1489  python
+ 1490  brew upgrade python
+ 1491  python
+ 1492  python3
+ 1493  python39
+ 1494  vi ~/.bash_profile
+ 1495  vi ~/.bashrc
+ 1496  vi ~/.bash
+ 1497  screen
+ 1498  clear
+ 1499  screen -ls
+ 1500  source ~/.bash_profile
+ 1501  python
+ 1502  python3
+ 1503  pip install pandas
+ 1504  brew install pip
+ 1505  brew install python
+ 1506  brew install python@3.11
+ 1507  brew install python@3.10
+ 1508  brew reinstall python@3.9
+ 1509  brew uninstall python3
+ 1510  brew reinstall python@3.9
+ 1511  pip install pandas
+ 1512  pip install osmnx
+ 1513  clear
+ 1514  screen -ls
+ 1515  python app.py
+ 1516  python
+ 1517  brew install python
+ 1518  brew upgrade
+ 1519  brew update
+ 1520  brew upgrade
+ 1521  brew install python
+ 1522  python
+ 1523  python3
+ 1524  python3 app.py
+ 1525  brew install python@3.11
+ 1526  python3 app.py
+ 1527  pip install numpy
+ 1528  pip install scipy
+ 1529  pip install airflow
+ 1530  pip update
+ 1531  pip upgrade
+ 1532  pip install pip
+ 1533  clear
+ 1534  python3 app.py
+ 1535  clear
+ 1536  screen -ls
+ 1537  pwd
+ 1538  python3 app.py
+ 1539  python3 createMapRoads.py
+ 1540  pip install https://github.com/alpacahq/alpaca-trade-api-python/
+ 1541  pip install alpaca
+ 1542  pip update
+ 1543  brew update pip
+ 1544  brew upgrade pip
+ 1545  brew upgrade pip3
+ 1546  pip install pip
+ 1547  pip install pip3
+ 1548  pip3 install pip
+ 1549  pip3 install alpaca-trade-api
+ 1550  ls
+ 1551  source /opt/anaconda3/bin/activate
+ 1552  conda activate base
+ 1553  git clone -b develop_1.0 git@github.com:MacarsonResearchInstitute/fortuna.git
+ 1554  ls
+ 1555  cd fortuna
+ 1556  ls
+ 1557  chmod +x *
+ 1558  ls
+ 1559  python Pairs_Trading_Algo_Example.py
+ 1560  ls
+ 1561  Less secure app access ON
+ 1562  python Pairs_Trading_Algo_Example.py
+ 1563  pip install smtplip
+ 1564  pip install smtplib
+ 1565  pip3 install smtplib
+ 1566  python3
+ 1567  python Pairs_Trading_Algo_Example.py
+ 1568  pylint Pairs_Trading_Algo_Example.py
+ 1569  clear
+ 1570  python
+ 1571  source /opt/anaconda3/bin/activate
+ 1572  conda activate base
+ 1573  ls
+ 1574  python3 test.py
+ 1575  export APCA_API_KEY_ID=PKV0QMVDJ7C8490W5W49
+ 1576  export APCA_API_SECRET_KEY=oTlVurNm2oRcRlM2IurRPIBdVXefQ2Qee3XSwbxm
+ 1577  export APCA_API_BASE_URL=https://paper-api.alpaca.markets
+ 1578  APCA_API_DATA_URL=https://data.alpaca.markets
+ 1579  export APCA_API_DATA_URL=https://data.alpaca.markets
+ 1580  python3 test.py
+ 1581  #
+ 1582  python3 Pairs_Trading_Algo_Example.py
+ 1583  source /opt/anaconda3/bin/activate
+ 1584  conda activate base
+ 1585  brew upgrade
+ 1586  clear
+ 1587  python app.py
+ 1588  pwd
+ 1589  python app.py
+ 1590  pip install pylint
+ 1591  clear
+ 1592  source /opt/anaconda3/bin/activate
+ 1593  conda activate base
+ 1594  python alpaca.py
+ 1595  screen
+ 1596  screen -ls
+ 1597  nohup python alpaca.py
+ 1598  screen -ls
+ 1599  screen -r
+ 1600  screen -ls
+ 1601  screen
+ 1602  source /opt/anaconda3/bin/activate
+ 1603  conda activate base
+ 1604  python alpaca.py
+ 1605  source /opt/anaconda3/bin/activate
+ 1606  conda activate base
+ 1607  python alpaca.py
+ 1608  ^[OA
+ 1609  python alpaca.py
+ 1610  source /opt/anaconda3/bin/activate
+ 1611  conda activate base
+ 1612  python alpaca.py
+ 1613  clear
+ 1614  source /opt/anaconda3/bin/activate
+ 1615  conda activate base
+ 1616  python alpaca.py
+ 1617  clear
+ 1618  pylint
+ 1619  pylint alpaca.py
+ 1620  python alpaca.py
+ 1621  source /opt/anaconda3/bin/activate
+ 1622  conda activate base
+ 1623  python alpaca.py
+ 1624  source /opt/anaconda3/bin/activate
+ 1625  conda activate base
+ 1626  python alpaca.py
+ 1627  clear
+ 1628  python app.py
+ 1629  source /opt/anaconda3/bin/activate
+ 1630  conda activate base
+ 1631  python alpaca.py
+ 1632  python app.py
+ 1633  clear
+ 1634  shoiw
+ 1635  clear
+ 1636  python app.py
+ 1637  pylint app.py
+ 1638  python app.py
+ 1639  ^[OA
+ 1640  python app.py
+ 1641  (stock[0], 'minute', length)
+ 1642  clear
+ 1643  python app.py
+ 1644  python3 app.py
+ 1645  source /opt/anaconda3/bin/activate
+ 1646  conda activate base
+ 1647  python3 app.py
+ 1648  python3 alpaca.py
+ 1649  clear
+ 1650  python3 alpaca.py
+ 1651  clear
+ 1652  pip install alpaca
+ 1653  python3 app
+ 1654  source /opt/anaconda3/bin/activate
+ 1655  conda activate base
+ 1656  source /opt/anaconda3/bin/activate
+ 1657  python3 app
+ 1658  python3 app.py
+ 1659  python3 alpaca.py
+ 1660  pip install poetry
+ 1661  poetry new fortuna
+ 1662  cd fortuna
+ 1663  ls -lash
+ 1664  poetry init
+ 1665  poetry shell
+ 1666  . /Users/mosqui/Library/Caches/pypoetry/virtualenvs/fortuna-Lj9g22i7-py3.9/bin/activate
+ 1667  poetry add alpaca-py
+ 1668  ls
+ 1669  cd fortuna
+ 1670  python alpaca_dev.py
+ 1671  pip install pip
+ 1672  /Users/mosqui/Library/Caches/pypoetry/virtualenvs/fortuna-Lj9g22i7-py3.9/bin/python -m pip install --upgrade pip
+ 1673  pip install pip
+ 1674  pip install alpaca
+ 1675  pip install alpaca-py
+ 1676  cd ..
+ 1677  ls -lash
+ 1678  cd fortuna
+ 1679  ls -lash
+ 1680  exit
+ 1681  pip  install pip
+ 1682  /Users/mosqui/Library/Caches/pypoetry/virtualenvs/fortuna-Lj9g22i7-py3.9/bin/python -m pip install --upgrade pip
+ 1683  pip -m pip install --upgrade pip
+ 1684  pip install --upgrade pip
+ 1685  pip install --upgrade pip --force
+ 1686  pip install aplaca-py
+ 1687  pip install alpaca-py
+ 1688  pip install rich
+ 1689  pip install maim
+ 1690  pip install manim
+ 1691  pip install lean
+ 1692  pip install apache-airflow
+ 1693  pip install finrl
+ 1694  pip freeze | grep -v "^-e" | xargs pip uninstall -y
+ 1695  pip freeze | xargs pip uninstall -y
+ 1696  pip uninstall -y -r <(pip freeze)
+ 1697  which python
+ 1698  brew uninstall python*
+ 1699  brew
+ 1700  sudo xcodebuild -license accept
+ 1701  brew
+ 1702  brew uninstall python*
+ 1703  which install python
+ 1704  which python
+ 1705  python
+ 1706  python3
+ 1707  which python3
+ 1708  brew uninstall python3
+ 1709  brew uninstall --ignore-dependencies python3
+ 1710  brew uninstall python3
+ 1711  brew uninstall pip
+ 1712  brew uninstall pip3
+ 1713  clear
+ 1714  which python3
+ 1715  which python
+ 1716  python -v
+ 1717  clear
+ 1718  pip
+ 1719  brew install pip
+ 1720  pip
+ 1721  pip3
+ 1722  pip3 install poetry
+ 1723  pip3 install alpaca-py
+ 1724  peotry init
+ 1725  poetry init
+ 1726  poetry shell
+ 1727  emulate bash -c '. /Users/mosqui/Library/Caches/pypoetry/virtualenvs/fortuna-Lj9g22i7-py3.11/bin/activate'
+ 1728  ls
+ 1729  clea
+ 1730  clear
+ 1731  poetry install
+ 1732  python 
+ 1733  clear
+ 1734  cd fortuna
+ 1735  python alpaca_dev.py
+ 1736  clear
+ 1737  python alpaca_dev.py
+ 1738  poetry shell
+ 1739  exit
+ 1740  poetry shell
+ 1741  emulate bash -c '. /Users/mosqui/Library/Caches/pypoetry/virtualenvs/fortuna-Lj9g22i7-py3.11/bin/activate'
+ 1742  python alpaca_dev.py
+ 1743  ls
+ 1744  python alpaca_dev.py
+ 1745  python3 alpaca_dev.py
+ 1746  exit
+ 1747  python alpaca_dev.py
+ 1748  clear
+ 1749  python alpaca_dev.py
+ 1750  clear
+ 1751  python alpaca_dev.py
+ 1752  clear
+ 1753  python alpaca_dev.py
+ 1754  clear
+ 1755  python alpaca_dev.py
+ 1756  clear
+ 1757  python alpaca_dev.py
+ 1758  clear
+ 1759  python alpaca_dev.py
+ 1760  pip insall pandas
+ 1761  pip3 insall pandas
+ 1762  pip3 install pandas
+ 1763  clear
+ 1764  python alpaca_dev.py
+ 1765  pwd
+ 1766  python alpaca_dev.py
+ 1767  clear
+ 1768  python alpaca_dev.py
+ 1769  pip3 install pyarrow
+ 1770  pip3 install pandas
+ 1771  clear
+ 1772  python alpaca_dev.py
+ 1773  pip3 install pandas-datareader
+ 1774  python alpaca_dev.py
+ 1775  xlear
+ 1776  clear
+ 1777  python alpaca_dev.py
+ 1778  clear
+ 1779  python alpaca_dev.py
+ 1780  clear
+ 1781  python alpaca_dev.py
+ 1782  clear
+ 1783  python alpaca_dev.py
+ 1784  clear
+ 1785  python alpaca_dev.py
+ 1786  cd ..
+ 1787  ls
+ 1788  clear
+ 1789  python alpaca_dev.py
+ 1790  clear
+ 1791  python alpaca_dev.py
+ 1792  clear
+ 1793  python alpaca_dev.py
+ 1794  clear
+ 1795  python alpaca_dev.py
+ 1796  pip3 install yfinance
+ 1797  python alpaca_dev.py
+ 1798  pip3 install matplotlib
+ 1799  python alpaca_dev.py
+ 1800  /usr/bin/python3 /Users/mosqui/.vscode/extensions/donjayamanne.python-environment-manager-1.0.3/pythonFiles/printEnvVariablesToFile.py /var/folders/ht/jv9y096x3qb6zp36w5_z1xqm0000gn/T/tmp-204687AZuB5ricXe.txt
+ 1801  source /opt/anaconda3/bin/activate
+ 1802  conda activate base
+ 1803  python alpaca_dev.py
+ 1804  poetry init
+ 1805  pipi3 install pyspark
+ 1806  pip3 install pyspark
+ 1807  /usr/local/bin/python /Users/mosqui/.vscode/extensions/ms-python.python-2022.4.1/pythonFiles/shell_exec.py /usr/local/bin/python -m pip install -U ipykernel /var/folders/ht/jv9y096x3qb6zp36w5_z1xqm0000gn/T/tmp-11815INUK2PGXIgbD.log
+ 1808  pip3 install ipykernel
+ 1809  pip3 install pyspark
+ 1810  pip3 install sci-kit
+ 1811  pip3 install scikit
+ 1812  pip3 install scikit-learn
+ 1813  pip3 install sklearn
+ 1814  cd ..
+ 1815  poetry init
+ 1816  poetry init --force
+ 1817  poetry init -force
+ 1818  poetry init
+ 1819  poetry start
+ 1820  poetry run
+ 1821  pip3 install scikit-learn
+ 1822  sudo purge
+ 1823  OA
+ 1824  sudo purge
+ 1825  3384
+ 1826  sudo purge
+ 1827  clear
+ 1828  sudo purge
+ 1829  poetry run
+ 1830  poetry start
+ 1831  poetry init -force
+ 1832  poetry init 
+ 1833  clear
+ 1834  python
+ 1835  pip
+ 1836  clear
+ 1837  source /opt/anaconda3/bin/activate
+ 1838  conda activate anaconda3
+ 1839  /opt/anaconda3/bin/python
+ 1840  python sandbox.py
+ 1841  pip install numpy
+ 1842  python sandbox.py
+ 1843  pylint sandbox.py
+ 1844  pytest sandbox.py
+ 1845  sudo purge
+ 1846  pip install tensorflow
+ 1847  clear
+ 1848  python sandbox.py
+ 1849  pip install yahoo_fin
+ 1850  python sandbox.py
+ 1851  clear
+ 1852  python sandbox.py
+ 1853  clear
+ 1854  python sandbox.py
+ 1855  sudo purge
+ 1856  source /opt/anaconda3/bin/activate
+ 1857  conda activate anaconda3
+ 1858  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1859  ssh-keygen -t ed25519 -C "your_email@example.com"
+ 1860  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1861  ls
+ 1862  touch ~/.ssh/config
+ 1863  vi ~/.ssh/config
+ 1864  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1865  ssh -T git@github.com
+ 1866  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1867  source /opt/anaconda3/bin/activate
+ 1868  conda activate anaconda3
+ 1869  python sandbox.py
+ 1870  pip install tensorflow
+ 1871  python sandbox.py
+ 1872  pip install yahoo_fin
+ 1873  pip install keras
+ 1874  pip install sklearn
+ 1875  pip install scikit-learn
+ 1876  clear
+ 1877  python sandbox.py
+ 1878  pip install matplotlib
+ 1879  clear
+ 1880  python sandbox.py
+ 1881  git remote set-url origin https://Qasel-Ghana-Ltd:\&N\?MKcAgMq4nhY69@github.com/Qasel-Ghana-Ltd/fortuna.git
+ 1882  git remote set-url origin https://github.com/Qasel-Ghana-Ltd/fortuna.git
+ 1883  git pul
+ 1884  git pull
+ 1885  git push
+ 1886  clear
+ 1887  python sandbox.py
+ 1888  exit
+ 1889  source /opt/anaconda3/bin/activate
+ 1890  conda activate anaconda3
+ 1891  python sandbox.py
+ 1892  clear
+ 1893  python sandbox.py
+ 1894  sudo purge
+ 1895  pwd
+ 1896  source /opt/anaconda3/bin/activate
+ 1897  conda activate anaconda3
+ 1898  python bfs.py
+ 1899  python3 bfs.py
+ 1900  brew install octave
+ 1901  sudo purge
+ 1902  brew upgrade
+ 1903  brew update
+ 1904  brew uninstall alluxio
+ 1905  from collections import deque\n \n \n# A class to represent a graph object\nclass Graph:\n    # Constructor\n    def __init__(self, edges, n):\n \n        # A list of lists to represent an adjacency list\n        self.adjList = [[] for _ in range(n)]\n \n        # add edges to the undirected graph\n        for (src, dest) in edges:\n            self.adjList[src].append(dest)\n            self.adjList[dest].append(src)\n \n \n# Perform BFS on the graph starting from vertex `v`\ndef BFS(graph, v, discovered):\n \n    # create a queue for doing BFS\n    q = deque()\n \n    # mark the source vertex as discovered\n    discovered[v] = True\n \n    # enqueue source vertex\n    q.append(v)\n \n    # loop till queue is empty\n    while q:\n \n        # dequeue front node and print it\n        v = q.popleft()\n        print(v, end=' ')\n \n        # do for every edge (v, u)\n        for u in graph.adjList[v]:\n            if not discovered[u]:\n                # mark it as discovered and enqueue it\n                discovered[u] = True\n                q.append(u)\n \n \nif __name__ == '__main__':\n \n    # List of graph edges as per the above diagram\n    edges = [\n        (1, 2), (1, 3), (1, 4), (2, 5), (2, 6), (5, 9),\n        (5, 10), (4, 7), (4, 8), (7, 11), (7, 12)\n        # vertex 0, 13, and 14 are single nodes\n    ]\n \n    # total number of nodes in the graph (labelled from 0 to 14)\n    n = 15\n \n    # build a graph from the given edges\n    graph = Graph(edges, n)\n \n    # to keep track of whether a vertex is discovered or not\n    discovered = [False] * n\n \n    # Perform BFS traversal from all undiscovered nodes to\n    # cover all connected components of a graph\n    for i in range(n):\n        if not discovered[i]:\n            # start BFS traversal from vertex i\n            BFS(graph, i, discovered)
+ 1906  brew uninstall alluxio
+ 1907  cd /usr/local/Cellar
+ 1908  ls
+ 1909  rm -rf alluxio
+ 1910  cd /usr/local/etc
+ 1911  ls
+ 1912  rm -rf alluxio
+ 1913  ls
+ 1914  clear
+ 1915  brew update
+ 1916  brew upgrade
+ 1917  brew uninstall gazebo*
+ 1918  brew uninstall gazebo
+ 1919  brew uninstall gazebo9
+ 1920  brew uninstall --force gazebo9
+ 1921  brew uninstall --force gazebo11
+ 1922  brew uninstall --force gazebo10
+ 1923  brew uninstall --force gazebo
+ 1924  brew uninstall --force gazebo7
+ 1925  brew upgrade
+ 1926  clear
+ 1927  brew list
+ 1928  exit
+ 1929  source /opt/anaconda3/bin/activate
+ 1930  conda activate anaconda3
+ 1931  octave -gui
+ 1932  octave --gui
+ 1933  brew list
+ 1934  source /opt/anaconda3/bin/activate
+ 1935  conda activate anaconda3
+ 1936  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1937  git config --global user.name "Amponsem"
+ 1938  git clone -b Develop_0.1 git@github.com:Qasel-Ghana-Ltd/fortuna.git
+ 1939  sudo purge
+ 1940  clear
+ 1941  sudo purge
+ 1942  pip install tweepy, openAI
+ 1943  python
+ 1944  pip install tweepy
+ 1945  pip install openAI
+ 1946  python sandBox.py
+ 1947  pip install tweepy
+ 1948  ls
+ 1949  pip3 install tweepy
+ 1950  python3 sandBox.py
+ 1951  python3
+ 1952  sudo purge
+ 1953  clear
+ 1954  sudo purge
+ 1955  mysql
+ 1956  mysql --version
+ 1957  python
+ 1958  python --version
+ 1959  sudo purge
+ 1960  brew install --cask dbeaver-community
+ 1961  brew upgrade
+ 1962  WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+ 1963  clear
+ 1964  WINEARCH=win32 WINEPREFIX=~/.wine32 winecfg
+ 1965  brew upgrade
+ 1966  brew upgrade --greedy
+ 1967  sudo purge
+ 1968  vscode --version
+ 1969  code --version
+ 1970  vscode --version
+ 1971  sudo purge
+ 1972  clear
+ 1973  python --version
+ 1974  python
+ 1975  python --version
+ 1976  git status
+ 1977  clear
+ 1978  ls
+ 1979  ls -lash
+ 1980  mkdir test
+ 1981  ls
+ 1982  touch test/test.txt
+ 1983  ls
+ 1984  cd test
+ 1985  ls
+ 1986  clear
+ 1987  sudo purge
+ 1988  pwd
+ 1989  ls
+ 1990  python --version
+ 1991  ls
+ 1992  ls -l
+ 1993  ls -la
+ 1994  ls -a
+ 1995  ls -las
+ 1996  ls -last
+ 1997  ls -t
+ 1998  ls -last
+ 1999  mkdir test
+ 2000  ls -last
+ 2001  clear
+ 2002  rm test
+ 2003  rm -R test
+ 2004  rm test
+ 2005  ls -last
+ 2006  rm -Rf test
+ 2007  rm -Rf .git
+ 2008  ls -last
+ 2009  rm -Rf .git
+ 2010  ls -last
+ 2011  pwd
+ 2012  cd ..
+ 2013  pwd
+ 2014  ls
+ 2015  touch test
+ 2016  ls
+ 2017  cd Python
+ 2018  ls
+ 2019  cd ..
+ 2020  ls
+ 2021  cd Linux
+ 2022  ls
+ 2023  pwd
+ 2024  cp ../test .
+ 2025  ls
+ 2026  ls ..
+ 2027  mv ../test .
+ 2028  ls ..
+ 2029  ls
+ 2030  echo "Scoty"
+ 2031  NAME="Kwaku"
+ 2032  echo NAME
+ 2033  echo $NAME
+ 2034  cd ~
+ 2035  pwd
+ 2036  ls -last
+ 2037  ls -last .b
+ 2038  vi .bash_profile
+ 2039  echo $NAME
+ 2040  source ~/.bash_profile
+ 2041  echo $NAME
+ 2042  vi ~/.bashrc
+ 2043  clear
+ 2044  vi ~/.bash_profile
+ 2045  . ~/.bash_profile
+ 2046  echo $NAME
+ 2047  vi ~/.bash_profile
+ 2048  . ~/.bash_profile
+ 2049  echo $NAME
+ 2050  . ~/.bash_profile
+ 2051  echo $NAME
+ 2052  ls
+ 2053  echo $NAME
+ 2054  ls
+ 2055  touch test1
+ 2056  vi test2
+ 2057  ls
+ 2058  vi test2
+ 2059  cat test2
+ 2060  more test2
+ 2061  New line >> test2
+ 2062  echo "New line" >> test2
+ 2063  cat test2
+ 2064  echo "Rewrite" > test2
+ 2065  cat test2
+ 2066  python --version >> log
+ 2067  cat log
+ 2068  ls -last > log
+ 2069  cat log
+ 2070  ls
+ 2071  git --version
+ 2072  git clone -d main git@github.com:Amponsem/linix_assignment_1.git
+ 2073  git clone -b main git@github.com:Amponsem/linix_assignment_1.git
+ 2074  git clone git@github.com:Amponsem/linix_assignment_1.git
+ 2075  ls
+ 2076  clear
+ 2077  git checkout -branch mosqui
+ 2078  git checkout mosqui
+ 2079  git branch mosqui
+ 2080  ls
+ 2081  cd linix_assignment_1
+ 2082  git branch mosqui
+ 2083  git checkout branch mosqui
+ 2084  git checkout mosqui
+ 2085  git checkout -b mosqui
+ 2086  ls
+ 2087  touch test
+ 2088  ls
+ 2089  git status
+ 2090  git add test
+ 2091  git status
+ 2092  git push
+ 2093  git push --set-upstream origin mosqui
+ 2094  git push origin mosqui
+ 2095  touch test2
+ 2096  touch test3
+ 2097  git add test3
+ 2098  git status
+ 2099  git commit -m "added test3 file"
+ 2100  git push
+ 2101  touch test4
+ 2102  git add test4
+ 2103  git commit -m "added test4 file"
+ 2104  git push
+ 2105  touch test5
+ 2106  sudo purge
+ 2107  git status
+ 2108  date
+ 2109  echo "{date}.log"
+ 2110  echo "${date}.log"
+ 2111  echo "${`date`}.log"
+ 2112  echo "{`date`}.log"
+ 2113  echo "`date`.log"
+ 2114  ls /bin/\[
+ 2115  ls
+ 2116  ./diagnostic.sh
+ 2117  chmod +x diagnostic.sh
+ 2118  ./diagnostic.sh
+ 2119  history
+ 2120  git reset --hard
+ 2121  ./diagnostic.sh
+ 2122  history > trail
+ 2123  ls
+ 2124  history > trail
+ 2125  ./diagnostic.sh
+ 2126  sudo purge
+ 2127  source /opt/anaconda3/bin/activate
+ 2128  conda activate anaconda3
+ 2129  sudo purge
+ 2130  source /opt/anaconda3/bin/activate
+ 2131  conda activate base
+ 2132  git branch
+ 2133  git fetch
+ 2134  git status
+ 2135  ls
+ 2136  git fetch
+ 2137  ls
+ 2138  git fetch
+ 2139  git checkout -b kwaku_git
+ 2140  ls
+ 2141  git branch -b mosqui
+ 2142  git branch mosqui
+ 2143  git checkout -b mosqui
+ 2144  git checkout mosqui
+ 2145  git checkout kwaku_git
+ 2146  clear
+ 2147  git status
+ 2148  ls
+ 2149  git push
+ 2150  git push --set-upstream origin kwaku_git
+ 2151  git checkout kwaku
+ 2152  clear
+ 2153  git status
+ 2154  ls
+ 2155  ls -l
+ 2156  ll
+ 2157  ls -a
+ 2158  ls -s
+ 2159  ls -h
+ 2160  ls
+ 2161  ls -la
+ 2162  ls -lash
+ 2163  clerr
+ 2164  clear
+ 2165  man more
+ 2166  more -h
+ 2167  more -help
+ 2168  more --help
+ 2169  clear
+ 2170  more assignment_1.md
+ 2171  view --help
+ 2172  :q
+ 2173  clear
+ 2174  vi assignment_1.md
+ 2175  source /opt/anaconda3/bin/activate
+ 2176  conda activate base
+ 2177  LOG_FILE=${date}.log
+ 2178  test="text for example"
+ 2179  echo "back"
+ 2180  echo test
+ 2181  echo $test
+ 2182  echo $test+me
+ 2183  date
+ 2184  test=date
+ 2185  date
+ 2186  echo $test
+ 2187  test=`date`
+ 2188  echo $test
+ 2189  test=${date}
+ 2190  echo $test
+ 2191  test=`date`
+ 2192  echo $test
+ 2193  date
+ 2194  echo $test
+ 2195  clear
+ 2196  LOG_FILE=`date`.log
+ 2197  echo $LOG_FILE
+ 2198  echo "test">$LOG_FILE
+ 2199  bash diagnostic.sh
+ 2200  function execute {bash diagnostic.sh >> $LOG_FILE}
+ 2201  function execute {bash diagnostic.sh}
+ 2202  function execute {./diagnostic.sh}\n\nexit
+ 2203  clear
+ 2204  function execute {bash $1 >> $LOG_FILE}\n\nexit
+ 2205  function execute {bash $1}\n\nexit
+ 2206  function execute {./$1}\n\nexit
+ 2207  execute diagnostic.sh
+ 2208  source /opt/anaconda3/bin/activate
+ 2209  conda activate base
+ 2210  ls
+ 2211  function execute\n{\nbash diagnostic.sh >> $LOG_FILE\n}
+ 2212  execute
+ 2213  env
+ 2214  echo $LOG_FILE
+ 2215  clear
+ 2216  LOG_FILE=`date`.log
+ 2217  function execute\n{\nbash diagnostic.sh >> $LOG_FILE\n}
+ 2218  execute
+ 2219  function execute {\nbash $1\n}
+ 2220  execute diagnostic.sh >> $LOG_FILE
